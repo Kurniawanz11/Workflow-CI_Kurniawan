@@ -10,7 +10,7 @@ from sklearn.metrics import confusion_matrix
 import os
 
 
-mlflow.set_tracking_uri("file:mlruns")
+#mlflow.set_tracking_uri("file:mlruns")
 
 # Load data
 X_train = pd.read_csv(
